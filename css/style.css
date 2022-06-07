@@ -69,3 +69,22 @@ button.active .bar:nth-child(3) {
 .nav-menu.active {
   left: 0;
 }
+
+/*  *********************  Nav bar slut ******************* */
+
+.splash_forside {
+  background-image: url(../billeder/oerken.webp);
+  background-position: 45% 0%;
+  background-size: 290%;
+  background-repeat: no-repeat;
+}
+
+.splash_text {
+  margin: 90% 6% 5%;
+}
+
+.splash_text h1 {
+  color: white;
+  font-weight: 100;
+  font-size: 2rem;
+}
