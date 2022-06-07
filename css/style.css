@@ -1,0 +1,71 @@
+/* ***************     nav bar *********************** */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 5% 7% 0;
+}
+.logo {
+  z-index: 1;
+}
+
+.logo a {
+  color: var(--primary-clr);
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-clr);
+}
+
+.nav-menu {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  gap: 45px;
+  padding: 25% 0 7% 0;
+  align-items: center;
+  transition: 0.3s;
+  left: 100%;
+  margin-top: -5%;
+  background-color: white;
+}
+
+button {
+  display: flex;
+  flex-direction: column;
+  background: none;
+  border: none;
+
+  justify-content: end;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px 0 0 auto;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--primary-clr);
+}
+
+button.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+button.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+button.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+.nav-menu.active {
+  left: 0;
+}
