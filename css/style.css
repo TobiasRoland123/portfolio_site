@@ -80,11 +80,12 @@ button.active .bar:nth-child(3) {
 }
 
 .splash_text {
-  margin: 90% 6% 5%;
+  margin: 80% 6% 5%;
 }
 
 .splash_text h1 {
   color: white;
   font-weight: 100;
-  font-size: 2rem;
+  font-size: 3rem;
+  text-align: center;
 }
