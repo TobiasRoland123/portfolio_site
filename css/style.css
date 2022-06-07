@@ -38,12 +38,12 @@ a {
   background-color: white;
 }
 
-button {
+nav button {
   display: flex;
   flex-direction: column;
   background: none;
   border: none;
-
+  cursor: pointer;
   justify-content: end;
 }
 
@@ -56,14 +56,14 @@ button {
   background-color: var(--primary-clr);
 }
 
-button.active .bar:nth-child(2) {
+nav button.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-button.active .bar:nth-child(1) {
+nav button.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
-button.active .bar:nth-child(3) {
+nav button.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
 .nav-menu.active {
@@ -74,13 +74,13 @@ button.active .bar:nth-child(3) {
 
 .splash_forside {
   background-image: url(../billeder/oerken.webp);
-  background-position: 45% 0%;
+  background-position: 45% 20%;
   background-size: 290%;
   background-repeat: no-repeat;
 }
 
 .splash_text {
-  margin: 80% 6% 5%;
+  margin: 72% 6% 5%;
 }
 
 .splash_text h1 {
@@ -88,4 +88,9 @@ button.active .bar:nth-child(3) {
   font-weight: 100;
   font-size: 3rem;
   text-align: center;
+}
+
+.scroll_btn {
+  border: none;
+  background-image: url();
 }
