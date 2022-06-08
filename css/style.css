@@ -81,7 +81,7 @@ nav button.active .bar:nth-child(3) {
   background-position: 45% 160%;
   background-size: 325%;
   background-repeat: no-repeat;
-  padding: 1% 0 0 0;
+  padding: 0.1% 0 0 0;
   height: 100vh;
 }
 
@@ -154,11 +154,13 @@ footer article {
   margin: 0 auto 3%;
 }
 
-.social_media img {
+.social_media a {
   max-width: 10%;
   margin: 0 8%;
 }
-
+.social_media img {
+  width: 100%;
+}
 .contact {
   margin: 10% auto 0;
   flex-direction: column;
