@@ -12,3 +12,9 @@ burger.addEventListener("click", () => {
   burger.classList.toggle("active");
   menu.classList.toggle("active");
 });
+
+arrow_down_forside.addEventListener("click", scrollDownForside);
+
+function scrollDownForside() {
+  document.documentElement.scrollTop = 900; // For Chrome, Firefox, IE and Opera
+}
