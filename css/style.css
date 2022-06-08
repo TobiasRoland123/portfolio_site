@@ -1,5 +1,9 @@
 /* ***************     nav bar *********************** */
-
+h2 {
+  font-size: 2rem;
+  color: var(--secondary-clr);
+  font-weight: 100;
+}
 nav {
   display: flex;
   justify-content: space-between;
@@ -131,11 +135,40 @@ footer {
   margin: 20% 0 0 0;
 }
 
-.social_media {
+footer article {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.to_top {
+  border: none;
+  background: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0 10% 0;
+}
+
+.to_top img {
+  width: 15%;
+  margin: 0 auto 3%;
 }
 
 .social_media img {
   max-width: 10%;
+  margin: 0 8%;
+}
+
+.contact {
+  margin: 10% auto 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contact ul {
+  margin: 5%;
+}
+
+.contact ul li {
+  margin: 3% 0;
 }
