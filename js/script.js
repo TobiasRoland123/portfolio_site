@@ -18,7 +18,7 @@ arrow_down_forside.addEventListener("click", scrollDownForside);
 arrow_up_footer.addEventListener("click", scrollUpToNav);
 
 function scrollDownForside() {
-  document.documentElement.scrollTop = 850; // For Chrome, Firefox, IE and Opera
+  document.documentElement.scrollTop = 750; // For Chrome, Firefox, IE and Opera
 }
 
 function scrollUpToNav() {

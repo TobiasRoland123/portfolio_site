@@ -48,7 +48,6 @@ nav button {
   background: none;
   border: none;
   cursor: pointer;
-  justify-content: end;
 }
 
 .bar {
@@ -195,4 +194,29 @@ footer article {
 
 .contact ul li {
   margin: 3% 0;
+}
+
+/*  *********************** desktop starter  *************************** */
+
+@media (min-width: 600px) {
+  /* **************  nav bar **************** */
+
+  nav button {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    position: unset;
+    flex-direction: row;
+    background: none;
+    padding: 0;
+    width: auto;
+    gap: 30px;
+    margin: 0;
+  }
+  .nav-menu li a:hover {
+    color: black;
+  }
 }
