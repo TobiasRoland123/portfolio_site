@@ -1,6 +1,7 @@
 const burger = document.querySelector("button");
 const menu = document.querySelector(".nav-menu");
 const arrow_down_forside = document.querySelector(".scroll_btn_down_White");
+const arrow_up_footer = document.querySelector(".to_top");
 
 window.addEventListener("load", sidenVises);
 
@@ -14,7 +15,12 @@ burger.addEventListener("click", () => {
 });
 
 arrow_down_forside.addEventListener("click", scrollDownForside);
+arrow_up_footer.addEventListener("click", scrollUpToNav);
 
 function scrollDownForside() {
-  document.documentElement.scrollTop = 900; // For Chrome, Firefox, IE and Opera
+  document.documentElement.scrollTop = 850; // For Chrome, Firefox, IE and Opera
+}
+
+function scrollUpToNav() {
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
