@@ -104,3 +104,19 @@ nav button.active .bar:nth-child(3) {
   width: 15%;
   cursor: pointer;
 }
+
+.to_other_sides {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 25% 0 4% 0;
+}
+
+.to_other_sides button {
+  border: none;
+  background: var(--secondary-clr);
+  width: 70%;
+  margin: 0 auto;
+  height: 60px;
+  border-radius: 50px;
+}
