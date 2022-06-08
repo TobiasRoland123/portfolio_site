@@ -74,13 +74,14 @@ nav button.active .bar:nth-child(3) {
 
 .splash_forside {
   background-image: url(../billeder/oerken.webp);
-  background-position: 45% 20%;
+  background-position: 45% 45%;
   background-size: 290%;
   background-repeat: no-repeat;
+  padding: 1% 0 0 0;
 }
 
 .splash_text {
-  margin: 72% 6% 5%;
+  margin: 39% 6% 14%;
 }
 
 .splash_text h1 {
@@ -90,7 +91,16 @@ nav button.active .bar:nth-child(3) {
   text-align: center;
 }
 
-.scroll_btn {
+.scroll_btn_down_White {
   border: none;
-  background-image: url();
+
+  background: none;
+  display: flex;
+  justify-content: center;
+  padding: 0 0 10% 0;
+}
+
+.scroll_btn_down_White img {
+  width: 15%;
+  cursor: pointer;
 }
