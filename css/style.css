@@ -75,13 +75,14 @@ nav button.active .bar:nth-child(3) {
 .splash_forside {
   background-image: url(../billeder/oerken.webp);
   background-position: 45% 45%;
-  background-size: 290%;
+  background-size: 325%;
   background-repeat: no-repeat;
   padding: 1% 0 0 0;
+  height: 100vh;
 }
 
 .splash_text {
-  margin: 39% 6% 14%;
+  margin: 69% 6% 14%;
 }
 
 .splash_text h1 {
@@ -119,4 +120,8 @@ nav button.active .bar:nth-child(3) {
   margin: 0 auto;
   height: 60px;
   border-radius: 50px;
+}
+
+.to_other_sides button a {
+  color: white;
 }
