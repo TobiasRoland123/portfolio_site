@@ -76,6 +76,28 @@ nav button.active .bar:nth-child(3) {
 
 /*  *********************  Nav bar slut ******************* */
 
+/*  *********************  animationer start ******************* */
+
+.bounce {
+  animation-name: bounce_kf;
+  animation-duration: 0.7s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: both;
+}
+
+@keyframes bounce_kf {
+  0% {
+    transform: translatey(-10%);
+  }
+  100% {
+    transform: translatey(0%);
+  }
+}
+
+/*  *********************  animationer slut ******************* */
+
 .splash_forside {
   background-image: url(../billeder/oerken.webp);
   background-position: 45% 160%;
