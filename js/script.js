@@ -14,13 +14,13 @@ burger.addEventListener("click", () => {
   menu.classList.toggle("active");
 });
 
-arrow_down_forside.addEventListener("click", scrollDownForside);
-arrow_up_footer.addEventListener("click", scrollUpToNav);
+// arrow_down_forside.addEventListener("click", scrollDownForside);
+// arrow_up_footer.addEventListener("click", scrollUpToNav);
 
-function scrollDownForside() {
-  document.documentElement.scrollTop = 750; // For Chrome, Firefox, IE and Opera
-}
+// function scrollDownForside() {
+//   document.documentElement.scrollTop = 750; // For Chrome, Firefox, IE and Opera
+// }
 
-function scrollUpToNav() {
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
-}
+// function scrollUpToNav() {
+//   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+// }

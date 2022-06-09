@@ -106,6 +106,15 @@ nav button.active .bar:nth-child(3) {
   height: 100%;
 }
 
+.splash_portfolie {
+  background-image: url(../billeder/enden_af_enoe.webp);
+  background-position: 40% 104%;
+  background-size: 295%;
+  background-repeat: no-repeat;
+  padding: 0.1% 0 0 0;
+  height: 100%;
+}
+
 .splash_text {
   margin: 49% 6% 14%;
 }
@@ -124,6 +133,7 @@ nav button.active .bar:nth-child(3) {
   display: flex;
   justify-content: center;
   padding: 0 0 10% 0;
+  margin: 0 auto;
 }
 
 .scroll_btn_down_White img {
@@ -168,6 +178,7 @@ footer article {
   justify-content: center;
   flex-direction: column;
   padding: 0 0 10% 0;
+  margin: 0 auto;
 }
 
 .to_top img {
@@ -196,6 +207,9 @@ footer article {
   margin: 3% 0;
 }
 
+#btns_to_other_sides {
+  padding: 1% 0 0 0;
+}
 /*  *********************** desktop starter  *************************** */
 
 @media (min-width: 600px) {
@@ -214,9 +228,26 @@ footer article {
     padding: 0;
     width: auto;
     gap: 30px;
-    margin: 0;
+    margin: 0% 0% 0% 0%;
   }
   .nav-menu li a:hover {
     color: black;
+  }
+  /* **************  nav bar slut **************** */
+
+  .splash_text {
+    margin: 30% 0% 0% 0%;
+  }
+
+  .scroll_btn_down_White {
+    display: block;
+    margin: 30% auto 0 auto;
+  }
+}
+
+@media (min-width: 800px) {
+  .splash_sec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
