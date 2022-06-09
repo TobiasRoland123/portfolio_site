@@ -1,6 +1,7 @@
 html {
   --primary-clr: #466a80;
   --secondary-clr: #3394cb;
+  --third-clr: #707070;
   scroll-behavior: smooth;
 }
 

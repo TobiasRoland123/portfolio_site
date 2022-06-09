@@ -1,9 +1,17 @@
-/* ***************     nav bar *********************** */
+/* ****** styling af h1 h2 h3  ************ */
+
 h2 {
   font-size: 2rem;
   color: var(--secondary-clr);
   font-weight: 100;
 }
+
+p {
+  color: var(--third-clr);
+}
+
+/* ***************     nav bar *********************** */
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -96,7 +104,7 @@ nav button.active .bar:nth-child(3) {
 }
 
 /*  *********************  animationer slut ******************* */
-
+/* **********************  splash billeder *********************** */
 .splash_forside {
   background-image: url(../billeder/oerken.webp);
   background-position: 45% 50%;
@@ -108,15 +116,21 @@ nav button.active .bar:nth-child(3) {
 
 .splash_portfolie {
   background-image: url(../billeder/enden_af_enoe.webp);
-  background-position: 40% 104%;
-  background-size: 295%;
+  background-position: 45% 100%;
+  background-size: 325%;
   background-repeat: no-repeat;
   padding: 0.1% 0 0 0;
   height: 100%;
 }
 
+/* *************** splash text + scroll down btn ******************* */
+
 .splash_text {
   margin: 49% 6% 14%;
+}
+
+.splash_text_portfolie {
+  margin: 60% 6% 14%;
 }
 
 .splash_text h1 {
@@ -141,6 +155,8 @@ nav button.active .bar:nth-child(3) {
   cursor: pointer;
 }
 
+/*  *********** knapper til andre sider på forsiden **************** */
+
 .to_other_sides {
   display: flex;
   flex-direction: column;
@@ -162,6 +178,44 @@ nav button.active .bar:nth-child(3) {
   color: white;
   font-size: 1.5rem;
 }
+
+#top_of_section img {
+  display: none;
+}
+
+#top_of_section {
+  padding: 1% 0 0 0;
+}
+#top_of_section_portfolie {
+  padding: 1% 0 0 0;
+}
+
+/* ************* om projekter ***************** */
+.projekt h2 {
+  color: var(--primary-clr);
+  margin: 0% 0 5%;
+}
+.projekt h3 {
+  color: var(--secondary-clr);
+  margin: 0% 0 3%;
+}
+
+.projekt p {
+  margin: 0 0 8%;
+}
+
+.projekt img {
+  width: 90%;
+  display: block;
+  margin: 20% auto 5%;
+  border-radius: 10px;
+}
+
+.projekt_text {
+  margin: 0 6%;
+}
+
+/* *************** footer  **************** */
 
 footer {
   margin: 20% 0 0 0;
@@ -207,13 +261,7 @@ footer article {
 .contact ul li {
   margin: 3% 0;
 }
-#btns_to_other_sides img {
-  display: none;
-}
 
-#btns_to_other_sides {
-  padding: 1% 0 0 0;
-}
 /*  *********************** desktop starter  *************************** */
 
 @media (min-width: 600px) {
@@ -267,6 +315,15 @@ footer article {
     background-position: 0 125%;
   }
 
+  .splash_portfolie {
+    background-image: url(../billeder/enden_af_enoe.webp);
+    background-position: 46% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 0.1% 0 0 0;
+    height: 100%;
+  }
+
   .splash_sec {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -275,8 +332,15 @@ footer article {
   .splash_text {
     margin: 30% 0 15%;
   }
+  .splash_text_portfolie {
+    margin: 30% 0 45%;
+  }
+
   .splash_text h1 {
     font-size: 4.3rem;
+  }
+  .splash_text_portfolie h1 {
+    font-size: 4.5rem;
   }
 
   .scroll_btn_down_White {
