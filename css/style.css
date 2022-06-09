@@ -236,18 +236,46 @@ footer article {
   /* **************  nav bar slut **************** */
 
   .splash_text {
-    margin: 30% 0% 0% 0%;
+    margin: 30% auto 0%;
+    max-width: 520px;
   }
 
   .scroll_btn_down_White {
     display: block;
     margin: 30% auto 0 auto;
   }
+  .to_other_sides {
+    gap: 60px;
+    margin: 7% 0 4% 0;
+  }
 }
 
 @media (min-width: 800px) {
+  nav {
+    margin: 2% 3% 3%;
+  }
+  .container {
+    margin: 0 auto;
+  }
+
+  .splash_forside {
+    background-size: cover;
+    background-position: 0 125%;
+  }
+
   .splash_sec {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+
+  .splash_text {
+    margin: 30% 0 15%;
+  }
+  .splash_text h1 {
+    font-size: 4.3rem;
+  }
+
+  .scroll_btn_down_White {
+    margin: 70% auto 0 auto;
   }
 }
