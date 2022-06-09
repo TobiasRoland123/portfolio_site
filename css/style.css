@@ -150,6 +150,10 @@ nav button.active .bar:nth-child(3) {
   margin: 0 auto;
 }
 
+.scroll_btn_down_White_portfolie {
+  padding: 0 0 30% 0;
+}
+
 .scroll_btn_down_White img {
   width: 15%;
   cursor: pointer;
@@ -191,10 +195,7 @@ nav button.active .bar:nth-child(3) {
 }
 
 /* ************* om projekter ***************** */
-.projekt h2 {
-  color: var(--primary-clr);
-  margin: 0% 0 5%;
-}
+
 .projekt h3 {
   color: var(--secondary-clr);
   margin: 0% 0 3%;
@@ -202,6 +203,13 @@ nav button.active .bar:nth-child(3) {
 
 .projekt p {
   margin: 0 0 8%;
+}
+
+.projekt_text a {
+  color: var(--primary-clr);
+  margin: 0% 0 5%;
+  font-size: 2rem;
+  font-weight: 100;
 }
 
 .projekt img {
@@ -217,6 +225,10 @@ nav button.active .bar:nth-child(3) {
 
 .projekt_text h2 {
   display: block;
+}
+
+.om_projekt {
+  margin: 7% auto 0;
 }
 
 /* *************** footer  **************** */
@@ -350,6 +362,7 @@ footer article {
   .scroll_btn_down_White {
     margin: 70% auto 0 auto;
   }
+
   #btns_to_other_sides {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -387,6 +400,10 @@ footer article {
     font-size: 2rem;
     font-weight: 100;
     order: 0;
+  }
+
+  .om_projekt {
+    margin: 0;
   }
 
   /* ******************** her starter footer  ***************** */
