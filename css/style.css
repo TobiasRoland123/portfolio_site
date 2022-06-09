@@ -364,8 +364,16 @@ footer article {
   .projekt {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin: 5% 0 0;
+  }
+  .projekt_omvendt {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
 
+  .projekt_omvendt img {
+    order: 1;
+  }
   .projekt_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
