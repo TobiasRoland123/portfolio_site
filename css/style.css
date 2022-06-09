@@ -206,6 +206,9 @@ footer article {
 .contact ul li {
   margin: 3% 0;
 }
+#btns_to_other_sides img {
+  display: none;
+}
 
 #btns_to_other_sides {
   padding: 1% 0 0 0;
@@ -277,5 +280,22 @@ footer article {
 
   .scroll_btn_down_White {
     margin: 70% auto 0 auto;
+  }
+  #btns_to_other_sides {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  #btns_to_other_sides img {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* ******************** her starter footer  ***************** */
+  footer {
+    margin: 0;
+  }
+
+  .to_top img {
+    margin: 0;
   }
 }
