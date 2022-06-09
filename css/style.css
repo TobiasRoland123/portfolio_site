@@ -371,16 +371,22 @@ footer article {
     grid-template-columns: 2fr 1fr;
   }
 
-  .projekt_omvendt img {
+  .projekt_omvendt a {
     order: 1;
   }
+
   .projekt_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .projekt_text h2 {
+  .projekt_text a {
     grid-column: 1/3;
+    color: var(--primary-clr);
+    margin: 0% 0 5%;
+    font-size: 2rem;
+    font-weight: 100;
+    order: 0;
   }
 
   /* ******************** her starter footer  ***************** */
