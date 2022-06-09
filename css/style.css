@@ -155,6 +155,7 @@ nav button.active .bar:nth-child(3) {
   margin: 0 auto;
   height: 80px;
   border-radius: 50px;
+  box-shadow: -4px 5px #2776a3;
 }
 
 .to_other_sides button a {
@@ -292,10 +293,46 @@ footer article {
 
   /* ******************** her starter footer  ***************** */
   footer {
+    margin: 10% auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer button {
+    order: 3;
+  }
+  .to_top {
+    padding: 0;
+  }
+  .to_top img {
+    margin: 0 auto;
+  }
+  .social_media {
+    order: 2;
+    margin: auto;
+  }
+
+  .social_media a {
+    max-width: unset;
+    margin: 0;
+  }
+  .social_media img {
+    width: 50%;
+    margin: 0 25%;
+  }
+  article .contact {
+    grid-column: 1;
+  }
+  .contact {
+    order: 1;
+    margin: 4% auto 4%;
+  }
+
+  .contact ul {
     margin: 0;
   }
 
-  .to_top img {
-    margin: 0;
+  .contact ul li {
+    margin: 4% 0;
   }
 }
