@@ -317,7 +317,9 @@ footer article {
 
 @media (min-width: 600px) {
   /* **************  nav bar **************** */
-
+  .splash_portfolie {
+    background-position: 55% 100%;
+  }
   nav button {
     display: none;
   }
@@ -335,6 +337,9 @@ footer article {
   }
   .nav-menu li a:hover {
     color: black;
+  }
+  .nav_menu_portfolie li a {
+    color: white;
   }
   /* **************  nav bar slut **************** */
 
