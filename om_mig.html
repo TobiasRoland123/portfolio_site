@@ -9,29 +9,84 @@
     <title>Portfolie</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo"><a href="index.html">Tobias Roland</a></div>
-        <ul class="nav-menu">
-          <li>
-            <a href="portfolie.html" class="nav-link">Portfolie</a>
-          </li>
+    <div class="container" id="page_top">
+      <header>
+        <nav>
+          <div class="logo"><a href="index.html">Tobias Roland</a></div>
+          <ul class="nav-menu">
+            <li>
+              <a href="portfolie.html" class="nav-link">Portfolie</a>
+            </li>
 
-          <li>
-            <a href="om_mig.html" class="nav-link"><u>Om mig</u></a>
-          </li>
-          <li>
-            <a href="galleri.html" class="nav-link">Galleri</a>
-          </li>
+            <li>
+              <a href="om_mig.html" class="nav-link">Om mig</a>
+            </li>
+            <li>
+              <a href="galleri.html" class="nav-link">Galleri</a>
+            </li>
+          </ul>
+          <button>
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </nav>
+      </header>
+      <main>
+        <section>
+          <h1>Om mig:</h1>
+
+          <article class="om_mig">
+            <div class="profile_pic">
+              <img src="billeder/profile_pic.webp" alt="et billede af samuel Tobias Roland Uyet" />
+            </div>
+            <div class="hvem_er_jeg">
+              <h2>Hvem er jeg?</h2>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+          </article>
+          <button class="scroll_btn_down_White scroll_btn_down_blue">
+            <a href="#top_of_section"><img src="ikoner/blue_pil_ned.png" alt=" arrow pointing down" /></a>
+          </button>
+        </section>
+        <section id="top_of_section">
+          <h1>CV:</h1>
+          <article class="om_mig">
+            <div class="arbejde">
+              <h2>Arbejde:</h2>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+
+            <div class="selvleart">
+              <h2>Selvlært:</h2>
+              <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            </div>
+          </article>
+        </section>
+      </main>
+    </div>
+
+    <footer class="footer_om_mig">
+      <button class="to_top">
+        <a href="#page_top"><img src="ikoner/blue_pil_op.png" alt="pil der peger op" /></a>
+        <h2>Til Toppen</h2>
+      </button>
+
+      <article class="social_media">
+        <a href="https://www.facebook.com/profile.php?id=100009511365924"><img src="ikoner/facebook_ikon.svg" alt="facebook logo" /></a>
+        <a href="https://www.instagram.com/tobias_roland_uyet/"><img src="ikoner/instagram_ikon.svg" alt="instagram logo" /></a>
+        <a href="https://www.linkedin.com/in/samuel-tobias-roland-uyet-688580188/"><img src="ikoner/linkedin_ikon.svg" alt="linkedin logo" /></a>
+      </article>
+
+      <article class="contact">
+        <h2>Kontakt:</h2>
+        <ul>
+          <li><a href="mailto:samueltobiasrolanduyet@gmail.com">Mail: samueltobiasrolanduyet@gmail.com</a></li>
+          <li><a href="tel:+4550478603">Tlf: 50478603</a></li>
         </ul>
-        <button>
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </nav>
-    </header>
-    <main></main>
+      </article>
+    </footer>
+
     <script src="js/script.js"></script>
   </body>
 </html>

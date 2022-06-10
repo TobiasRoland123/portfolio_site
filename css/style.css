@@ -1,4 +1,9 @@
 /* ****** styling af h1 h2 h3  ************ */
+h1 {
+  font-size: 5rem;
+  color: var(--primary-clr);
+  font-weight: 100;
+}
 
 h2 {
   font-size: 2rem;
@@ -194,6 +199,33 @@ nav button {
   cursor: pointer;
 }
 
+section h1 {
+  text-align: center;
+  margin: 3% 0 0;
+}
+
+.profile_pic {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 10%;
+}
+
+.profile_pic img {
+  max-width: 50%;
+}
+
+.om_mig {
+  margin: 7% 9%;
+}
+
+.om_mig h2 {
+  margin: 4% auto 4%;
+}
+
+.hvem_er_jeg {
+  margin: 0 0 16%;
+}
+
 /*  *********** knapper til andre sider på forsiden **************** */
 
 .to_other_sides {
@@ -270,6 +302,10 @@ nav button {
 
 footer {
   margin: 20% 0 0 0;
+}
+
+.footer_om_mig {
+  margin: 15% 0 0 0;
 }
 
 footer article {
@@ -355,6 +391,30 @@ footer article {
   .to_other_sides {
     gap: 60px;
     margin: 7% 0 4% 0;
+  }
+  /* om mig side */
+
+  .om_mig {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6%;
+    margin: 7% 7% 20%;
+  }
+
+  .profile_pic {
+    display: block;
+  }
+
+  .profile_pic img {
+    max-width: 70%;
+  }
+
+  .scroll_btn_down_blue {
+    margin: 10% auto 0 auto;
+  }
+
+  .footer_om_mig {
+    margin: 10% 0 0 0;
   }
 }
 
