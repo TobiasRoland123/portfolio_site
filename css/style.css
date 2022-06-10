@@ -17,6 +17,7 @@ nav {
   justify-content: space-between;
   margin: 5% 7% 0;
 }
+
 .logo {
   z-index: 1;
 }
@@ -24,6 +25,10 @@ nav {
 .logo a {
   color: var(--primary-clr);
   font-size: 1.5rem;
+}
+
+.logo_portfolie a {
+  color: white;
 }
 
 li {
@@ -66,19 +71,49 @@ nav button {
   transition: all 0.3s ease-in-out;
   background-color: var(--primary-clr);
 }
+.bar_portfolie {
+  background-color: white;
+}
 
-nav button.active .bar:nth-child(2) {
+.logo_portfolie a {
+  color: white;
+  transition: all 0.5s ease-in-out;
+}
+/* bar active standart */
+
+.active .bar:nth-child(2) {
   opacity: 0;
 }
 
-nav button.active .bar:nth-child(1) {
+.active .bar:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
 }
-nav button.active .bar:nth-child(3) {
+.active .bar:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
 }
+
+/* menu active */
 .nav-menu.active {
   left: 0;
+}
+
+/* bar active på portfolie side */
+
+.active_portfolie .bar_portfolie:nth-child(2) {
+  opacity: 0;
+}
+
+.active_portfolie .bar_portfolie:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+  background-color: var(--primary-clr);
+}
+.active_portfolie .bar_portfolie:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+  background-color: var(--primary-clr);
+}
+
+.active_logo_portfolie a {
+  color: var(--primary-clr);
 }
 
 /*  *********************  Nav bar slut ******************* */
@@ -115,7 +150,7 @@ nav button.active .bar:nth-child(3) {
 }
 
 .splash_portfolie {
-  background-image: url(../billeder/enden_af_enoe.webp);
+  background-image: url(../billeder/skovbund.webp);
   background-position: 45% 100%;
   background-size: 325%;
   background-repeat: no-repeat;
@@ -332,7 +367,6 @@ footer article {
   }
 
   .splash_portfolie {
-    background-image: url(../billeder/enden_af_enoe.webp);
     background-position: 46% 100%;
     background-size: cover;
     background-repeat: no-repeat;
