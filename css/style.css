@@ -505,6 +505,16 @@ footer article {
     margin: 0;
   }
 
+  /* ************** OM MIG styiling desktop ******************** */
+
+  .om_mig {
+    margin: 2% 7% 0%;
+  }
+
+  .scroll_btn_down_blue {
+    margin: 0 auto;
+  }
+
   /* ******************** her starter footer  ***************** */
   footer {
     margin: 10% auto 0;
