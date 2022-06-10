@@ -211,7 +211,8 @@ section h1 {
 }
 
 .profile_pic img {
-  max-width: 50%;
+  max-width: 66%;
+  border-radius: 50%;
 }
 
 .om_mig {
@@ -223,7 +224,7 @@ section h1 {
 }
 
 .hvem_er_jeg {
-  margin: 0 0 16%;
+  margin: 0 0 9%;
 }
 
 /*  *********** knapper til andre sider på forsiden **************** */
@@ -513,6 +514,10 @@ footer article {
 
   .scroll_btn_down_blue {
     margin: 0 auto;
+  }
+
+  .hvem_er_jeg {
+    margin: auto 0 30%;
   }
 
   /* ******************** her starter footer  ***************** */
