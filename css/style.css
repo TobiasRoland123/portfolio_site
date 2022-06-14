@@ -343,6 +343,10 @@ section h1 {
   border-radius: 10px;
 }
 
+.navi_tekst {
+  display: none;
+}
+
 /* *************** footer  **************** */
 
 footer {
@@ -534,6 +538,21 @@ footer article {
     border-radius: 30%;
   }
 
+  .forside_navi {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 3%;
+  }
+
+  .forside_navi h2 {
+    display: block;
+    font-size: 5rem;
+  }
+
+  .navi_tekst {
+    margin: auto;
+  }
+
   /* ****************** projekter styling desktop ************************* */
 
   .projekt {
@@ -594,6 +613,10 @@ footer article {
     margin: 20% auto 0;
   }
   /* **************** galleri ****************** */
+
+  .navi_tekst {
+    display: block;
+  }
 
   .splash_text_galleri {
     margin: 30% 18% 65% auto;
