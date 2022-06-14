@@ -163,6 +163,14 @@ nav button {
   height: 100%;
 }
 
+.splash_galleri {
+  background-image: url(../billeder/galleri_splash_3.webp);
+  background-position: 45% 60%;
+  background-size: 180%;
+  background-repeat: no-repeat;
+  padding: 0.1% 0 0 0;
+  height: 100%;
+}
 /* *************** splash text + scroll down btn ******************* */
 
 .splash_text {
@@ -258,9 +266,6 @@ section h1 {
 #top_of_section {
   padding: 1% 0 0 0;
 }
-#top_of_section_portfolie {
-  padding: 1% 0 0 0;
-}
 
 /* ************* om projekter ***************** */
 
@@ -320,6 +325,22 @@ section h1 {
 .indryk {
   margin: 2% 10%;
   font-size: 0.8rem;
+}
+
+/* ****************** galleri ****************** */
+
+.splash_text_galleri {
+  margin: 69% 6% 34%;
+}
+
+.galleri_article h2 {
+  margin: 15% 5% -20px;
+}
+.collage_container img {
+  width: 90%;
+  display: block;
+  margin: 10% auto 0%;
+  border-radius: 10px;
 }
 
 /* *************** footer  **************** */
@@ -440,6 +461,12 @@ footer article {
   .footer_om_mig {
     margin: 10% 0 0 0;
   }
+
+  /*  **************** galleri ***************** */
+
+  .splash_text_galleri h1 {
+    font-size: 5rem;
+  }
 }
 
 @media (min-width: 800px) {
@@ -461,6 +488,11 @@ footer article {
     background-repeat: no-repeat;
     padding: 0.1% 0 0 0;
     height: 100%;
+  }
+
+  .splash_galleri {
+    background-position: 0% 42%;
+    background-size: 100%;
   }
 
   .splash_sec {
@@ -493,6 +525,13 @@ footer article {
   #btns_to_other_sides img {
     display: block;
     max-width: 100%;
+  }
+
+  #top_of_section img {
+    display: block;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 30%;
   }
 
   /* ****************** projekter styling desktop ************************* */
@@ -553,6 +592,25 @@ footer article {
 
   .hvem_er_jeg {
     margin: 20% auto 0;
+  }
+  /* **************** galleri ****************** */
+
+  .splash_text_galleri {
+    margin: 30% 18% 65% auto;
+  }
+
+  .splash_text_galleri h1 {
+    font-size: 5rem;
+  }
+
+  .collage_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .galleri_article h2 {
+    margin: 6% auto 0%;
+    font-size: 3rem;
   }
 
   /* ******************** her starter footer  ***************** */

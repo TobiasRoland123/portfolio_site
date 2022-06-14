@@ -7,32 +7,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/generel.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Portfolie</title>
+    <title>Forside</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <div class="logo"><a href="index.html">Tobias Roland</a></div>
-        <ul class="nav-menu">
-          <li>
-            <a href="portfolie.html" class="nav-link">Portfolie</a>
-          </li>
+    <div class="splash_galleri" id="page_top_galleri">
+      <div class="container">
+        <header>
+          <nav>
+            <div class="logo logo_portfolie"><a href="index.html">Tobias Roland</a></div>
+            <ul class="nav-menu nav_menu_portfolie">
+              <li>
+                <a href="portfolie.html" class="nav-link">Portfolie</a>
+              </li>
 
-          <li>
-            <a href="om_mig.html" class="nav-link">Om mig</a>
-          </li>
-          <li>
-            <a href="galleri.html" class="nav-link"><u>Galleri</u></a>
-          </li>
-        </ul>
-        <button>
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
+              <li>
+                <a href="om_mig.html" class="nav-link">Om mig</a>
+              </li>
+              <li>
+                <a href="galleri.html" class="nav-link"><u>Galleri</u> </a>
+              </li>
+            </ul>
+            <button class="burger_portfolie">
+              <span class="bar bar_portfolie"></span>
+              <span class="bar bar_portfolie"></span>
+              <span class="bar bar_portfolie"></span>
+            </button>
+          </nav>
+        </header>
+      </div>
+      <section class="splash_sec">
+        <article class="splash_text splash_text_galleri">
+          <h1>
+            "Billeder siger <br />
+            mere end ord"
+          </h1>
+        </article>
+
+        <button class="scroll_btn_down_White">
+          <a href="#top_of_section_galleri"><img src="ikoner/hvid_pil_ned.png" alt="white arrow pointing down" /></a>
         </button>
-      </nav>
-    </header>
-    <main></main>
+      </section>
+    </div>
+    <main>
+      <div class="container">
+        <section id="top_of_section_galleri">
+          <article class="galleri_article">
+            <h2>Arrengementer:</h2>
+            <div class="collage_container">
+              <img src="billeder/galleri/arrengementer/1_andreas_gaar_ned_gennem_kirke.webp" alt="dreng i kirke" />
+
+              <img src="billeder/galleri/arrengementer/3_borddaekning.webp" alt="borddækning" />
+              <img src="billeder/galleri/arrengementer/4_farmor_far_og andreas.webp" alt="dreng med familie" />
+              <img src="billeder/galleri/arrengementer/5_jacob_med_baby.webp" alt="mand med børn" />
+              <img src="billeder/galleri/arrengementer/6_loeb.webp" alt="børn der løber" />
+              <img src="billeder/galleri/arrengementer/7_sebastian.webp" alt="lyshåret dreng" />
+            </div>
+          </article>
+          <article class="galleri_article">
+            <h2>Portrætter:</h2>
+            <div class="collage_container">
+              <img src="billeder/galleri/portraetter/1_andreas_konfirmation.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/portraetter/2_emilie_bispebjerg_kirkegaard.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/portraetter/3_emilie_sommerhus_2.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/portraetter/4_emilie_sommerhus.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/portraetter/5_karoline_portraet.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/portraetter/6_sebastian_konfirmation.webp" alt="dreng i kirke" />
+            </div>
+          </article>
+          <article class="galleri_article">
+            <h2>Natur billeder:</h2>
+            <div class="collage_container">
+              <img src="billeder/galleri/natur_billeder/1_fluesvamp.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/natur_billeder/2_kaktus.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/natur_billeder/3_sand.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/natur_billeder/4_hunderute.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/natur_billeder/5_traestup.webp" alt="dreng i kirke" />
+              <img src="billeder/galleri/natur_billeder/6_vintergaek.webp" alt="dreng i kirke" />
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <button class="to_top">
+        <a href="#page_top_galleri"><img src="ikoner/blue_pil_op.png" alt="pil der peger op" /></a>
+        <h2>Til Toppen</h2>
+      </button>
+
+      <article class="social_media">
+        <a href="https://www.facebook.com/profile.php?id=100009511365924"><img src="ikoner/facebook_ikon.svg" alt="facebook logo" /></a>
+        <a href="https://www.instagram.com/tobias_roland_uyet/"><img src="ikoner/instagram_ikon.svg" alt="instagram logo" /></a>
+        <a href="https://www.linkedin.com/in/samuel-tobias-roland-uyet-688580188/"><img src="ikoner/linkedin_ikon.svg" alt="linkedin logo" /></a>
+      </article>
+
+      <article class="contact">
+        <h2>Kontakt:</h2>
+        <ul>
+          <li><a href="mailto:samueltobiasrolanduyet@gmail.com">Mail: samueltobiasrolanduyet@gmail.com</a></li>
+          <li><a href="tel:+4550478603">Tlf: 50478603</a></li>
+        </ul>
+      </article>
+    </footer>
     <script src="js/script.js"></script>
   </body>
 </html>
