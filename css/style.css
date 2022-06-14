@@ -1,6 +1,6 @@
 /* ****** styling af h1 h2 h3  ************ */
 h1 {
-  font-size: 5rem;
+  font-size: 4rem;
   color: var(--primary-clr);
   font-weight: 100;
 }
@@ -280,6 +280,19 @@ section h1 {
   font-weight: 100;
 }
 
+.in_project_text a {
+  color: var(--third-clr);
+  text-decoration: underline;
+  font-size: unset;
+  margin: 0;
+}
+
+.tekst_opdeler {
+  display: block;
+  font-weight: 700;
+  margin: 5% 0 2% 0;
+}
+
 .projekt img {
   width: 90%;
   display: block;
@@ -297,6 +310,16 @@ section h1 {
 
 .om_projekt {
   margin: 7% auto 0;
+}
+
+/* ****************** om mig ****************** */
+.scroll_btn_down_blue {
+  margin: 8% 0% 0 0;
+}
+
+.indryk {
+  margin: 2% 10%;
+  font-size: 0.8rem;
 }
 
 /* *************** footer  **************** */
@@ -407,7 +430,7 @@ footer article {
   }
 
   .profile_pic img {
-    max-width: 70%;
+    max-width: 100%;
   }
 
   .scroll_btn_down_blue {
@@ -477,7 +500,7 @@ footer article {
   .projekt {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    margin: 5% 0 0;
+    margin: 5% 2% 0;
   }
   .projekt_omvendt {
     display: grid;
@@ -491,19 +514,31 @@ footer article {
   .projekt_text {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5%;
   }
 
   .projekt_text a {
     grid-column: 1/3;
-    color: var(--primary-clr);
-    margin: 0% 0 5%;
+
+    margin: 0;
     font-size: 2rem;
     font-weight: 100;
     order: 0;
   }
 
+  .in_project_text a {
+    color: var(--third-clr);
+    text-decoration: underline;
+    font-size: unset;
+    margin: 0;
+  }
+
   .om_projekt {
     margin: 0;
+  }
+
+  .projekt img {
+    width: 100%;
   }
 
   /* ************** OM MIG styiling desktop ******************** */
@@ -513,11 +548,11 @@ footer article {
   }
 
   .scroll_btn_down_blue {
-    margin: 0 auto;
+    margin: 31% auto 0;
   }
 
   .hvem_er_jeg {
-    margin: auto 0 30%;
+    margin: 20% auto 0;
   }
 
   /* ******************** her starter footer  ***************** */
