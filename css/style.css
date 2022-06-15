@@ -426,57 +426,61 @@ footer article {
   .nav_menu_portfolie li a {
     color: white;
   }
-  /* **************  nav bar slut **************** */
 
-  .splash_text {
-    margin: 30% auto 0%;
-    max-width: 520px;
+  .nav_menu_portfolie li a:hover {
+    color: var(--secondary-clr);
   }
+}
+/* **************  nav bar slut **************** */
 
-  .scroll_btn_down_White {
-    display: flex;
-    margin: 30% auto 0 auto;
-  }
+.splash_text {
+  margin: 30% auto 0%;
+  max-width: 520px;
+}
 
-  .scroll_btn_down_White img {
-    width: 100px;
-    cursor: pointer;
-    height: 100px;
-  }
-  .to_other_sides {
-    gap: 60px;
-    margin: 7% 0 4% 0;
-  }
-  /* om mig side */
+.scroll_btn_down_White {
+  display: flex;
+  margin: 30% auto 0 auto;
+}
 
-  .om_mig {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 6%;
-    margin: 7% 7% 20%;
-  }
+.scroll_btn_down_White img {
+  width: 100px;
+  cursor: pointer;
+  height: 100px;
+}
+.to_other_sides {
+  gap: 60px;
+  margin: 7% 0 4% 0;
+}
+/* om mig side */
 
-  .profile_pic {
-    display: block;
-  }
+.om_mig {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 6%;
+  margin: 7% 7% 20%;
+}
 
-  .profile_pic img {
-    max-width: 100%;
-  }
+.profile_pic {
+  display: block;
+}
 
-  .scroll_btn_down_blue {
-    margin: 10% auto 0 auto;
-  }
+.profile_pic img {
+  max-width: 100%;
+}
 
-  .footer_om_mig {
-    margin: 10% 0 0 0;
-  }
+.scroll_btn_down_blue {
+  margin: 10% auto 0 auto;
+}
 
-  /*  **************** galleri ***************** */
+.footer_om_mig {
+  margin: 10% 0 0 0;
+}
 
-  .splash_text_galleri h1 {
-    font-size: 5rem;
-  }
+/*  **************** galleri ***************** */
+
+.splash_text_galleri h1 {
+  font-size: 5rem;
 }
 
 @media (min-width: 800px) {
@@ -511,10 +515,10 @@ footer article {
   }
 
   .splash_text {
-    margin: 30% 0 15%;
+    margin: 30% 0 23%;
   }
   .splash_text_portfolie {
-    margin: 30% 0 45%;
+    margin: 30% 0 57%;
   }
 
   .splash_text h1 {
