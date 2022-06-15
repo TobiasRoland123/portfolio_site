@@ -537,6 +537,9 @@ footer article {
     max-width: 100%;
   }
 
+  .to_other_sides button {
+    box-shadow: -6px 10px #2776a3;
+  }
   #top_of_section img {
     display: block;
     width: 80%;
